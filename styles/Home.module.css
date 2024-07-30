@@ -20,3 +20,53 @@
 .title a:hover, .title a:focus, .title a:active {
   text-decoration: underline;
 }
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 25px;
+  width: 60vh;
+  height: 30vh;
+
+
+}
+
+.button{
+  border-radius: 10px;
+  background-color:#2D8647;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+
+}
+
+
+.buttonG{
+  border-radius: 10px;
+  background-color:red;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.input {
+padding: 10px;
+height: 10vh;
+width: 40vh;
+}
